@@ -48,10 +48,11 @@ table {
 
 
 
-/*Backgroud da página*/
+/*Geral da página*/
 
 html{
-    background-color: #272729;
+    background-image: url(img/backgroud-img.png);
+    background-size: 900px;
     font-family: 'Rubik', sans-serif;
 }
 
@@ -60,6 +61,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-bottom: 75px;
 }
 
 /*|------------------------//-------------------------|*/
@@ -79,11 +81,21 @@ body{
     background-image: linear-gradient(#b8773a, #61707D);
 }
 
+.bloco02{
+    align-items: center;
+
+    margin-top: 4rem;
+    border-radius: 15px;
+    width: 1200px;
+    height: 600px;
+    background-color:#61707D;
+}
+
 /*|------------------------//-------------------------|*/
 
 
 
-/*Layout das divs das sections*/
+/*Layout das divs do bloco 01*/
 .barras{
     width: 700px;
     height: 550px;
@@ -189,3 +201,61 @@ span{
     font-size: 25pt;
     font-weight: 650;
 }
+
+/*|------------------------//-------------------------|*/
+
+
+
+/*Layout das divs do bloco 02*/
+
+.barra-superior{
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 50px;
+    align-items: center;
+    width: 1050px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    background-color: #f5fbef;
+    border-radius: 50px;
+    box-shadow: -10px 10px 5px 1px rgba(0, 0, 0, 0.395);
+}
+
+.barra-superior img{
+    margin-top: 3px;
+    margin-left: 50px;
+    margin-right: 20px;
+    width: 120px;
+    height: auto;
+}
+
+.barra-superior p{
+    color: #9d69a3;
+    font-size: 30pt;
+    text-align: center;
+}
+
+.barra-superior span{
+    color: #ff820c;
+    font-size: 30pt;
+    font-weight: 650;
+}
+
+.imagens-racao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.imagens-racao img{
+    width: 550px;
+}
+
+/*|------------------------//-------------------------|*/
