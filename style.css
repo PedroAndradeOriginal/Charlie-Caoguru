@@ -93,7 +93,7 @@ body{
 .inclinada{
     margin-top: 40px;
     padding-top: 15px;
-    padding-bottom: 33px;
+    padding-bottom: 48px;
     padding-left: 10px;
     border-radius: 30px;
     width: 500px;
@@ -109,7 +109,7 @@ body{
 .inclinada h1{
     margin-top: 5px;
     font-style: normal;
-    font-size: 40pt;
+    font-size: 50pt;
     color: #9d69a3;
     font-weight: 650;
 }
@@ -142,7 +142,7 @@ body{
     padding-left: 15px;
     padding-right: 15px;
     border-radius: 30px;
-    width: 380px;
+    width: 400px;
     height: 100px;
     transform: rotate(-0.5deg);
     background-color: #f5fbef;
