@@ -83,12 +83,29 @@ body{
 
 .bloco02{
     align-items: center;
-
     margin-top: 4rem;
     border-radius: 15px;
     width: 1200px;
     height: 600px;
     background-color:#61707D;
+}
+
+.bloco03{
+    align-items: center;
+    margin-top: 4rem;
+    border-radius: 15px;
+    width: 1200px;
+    height: 600px;
+    background-color:#61707D;
+}
+
+.bloco04{
+    align-items: center;
+    margin-top: 4rem;
+    border-radius: 15px;
+    width: 1200px;
+    height: 600px;
+    background-color: #f5fbef;
 }
 
 /*|------------------------//-------------------------|*/
@@ -250,12 +267,136 @@ span{
     margin-top: 40px;
     margin-left: auto;
     margin-right: auto;
-    padding-right: 50px;
-    padding-left: 50px;
+    padding-right: 70px;
+    padding-left: 70px;
 }
 
-.imagens-racao img{
-    width: 550px;
+#foto01{
+    width: 350px;
+    height: auto;
+    border-radius: 15px;
+    margin-right: 70px;
+}
+
+#foto02{
+    width: 180px;
+    height: auto;
+    border-radius: 15px;
+}
+
+/*|------------------------//-------------------------|*/
+
+
+
+/*Layout das divs do bloco 03*/
+
+.rodinhas{
+    margin-top: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.laranja {
+    height: 50px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    position: relative;
+    background-color: #b8773a;
+    margin-top: -10px;
+}
+
+.laranja:before {
+    display: block;
+    content: "";
+    width: 100%;
+    height: 20px;
+    background: linear-gradient(45deg, #b8773a 25%, transparent 25%), linear-gradient(-45deg, #b8773a 25%, transparent 25%);
+    background-size: 20px 20px;
+    background-position: -50px;
+    position: absolute;
+    top: -20px;
+    left: 0;
+}
+
+.roxo {
+    height: 50px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    position: relative;
+    background-color: #9d69a3;
+    margin-top: -30px;
+}
+
+.roxo:before {
+    display: block;
+    content: "";
+    width: 100%;
+    height: 20px;
+    background: linear-gradient(45deg, #9d69a3 25%, transparent 25%), linear-gradient(-45deg, #9d69a3 25%, transparent 25%);
+    background-size: 20px 20px;
+    background-position: -50px;
+    position: absolute;
+    top: -20px;
+    left: 0;
+}
+
+.verde {
+    height: 50px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    position: relative;
+    background-color: #40f99b;
+    margin-top: -30px;
+}
+
+.verde:before {
+    display: block;
+    content: "";
+    width: 100%;
+    height: 20px;
+    background: linear-gradient(45deg, #40f99b 25%, transparent 25%), linear-gradient(-45deg, #40f99b 25%, transparent 25%);
+    background-size: 20px 20px;
+    background-position: -50px;
+    position: absolute;
+    top: -20px;
+    left: 0;
+}
+
+.branco {
+    height: 70px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    position: relative;
+    background-color: #f5fbef;
+    margin-top: -30px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.branco:before {
+    display: block;
+    content: "";
+    width: 100%;
+    height: 20px;
+    background: linear-gradient(45deg, #f5fbef 25%, transparent 25%), linear-gradient(-45deg, #f5fbef 25%, transparent 25%);
+    background-size: 20px 20px;
+    background-position: -50px;
+    position: absolute;
+    top: -20px;
+    left: 0;
 }
 
 /*|------------------------//-------------------------|*/
